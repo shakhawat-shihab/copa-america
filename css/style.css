@@ -98,6 +98,51 @@ header{
 }
 
 
+/* match section */
+.matches{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-column-gap: 40px;
+}
+
+.match{
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+    border-radius: 10px;
+    padding: 15px;
+}
+.teams{
+    display: flex;
+    align-items: center;
+}
+.team-1,.team-2{
+    width: 105px;
+}
+.versus{
+    width: 170px;
+}
+.result{
+    display: flex;
+    padding: 0px 40px;
+    justify-content: space-between;
+}
+.result p{
+    font-size: 32px;
+    font-weight: bold;
+    margin: 0;
+}
+.time{
+    text-align: center;
+}
+.time span{
+    color: #FF5959;
+    font-weight: bold;
+}
+
+
+
+
 /* footer section */
 .footer-section{
     display: flex;
