@@ -51,6 +51,13 @@ header{
     grid-row-gap: 50px;
     margin: 65px 0px 85px 0px;
 }
+
+.banner-section:hover .banner-image{
+    transform: scale(1.2,1.2);
+    transition: transform 2s;
+
+}
+
 .info-part h1{
     font-size: 64px;
     margin-bottom: 27px;
