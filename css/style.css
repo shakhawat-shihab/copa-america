@@ -54,14 +54,12 @@ main{
     grid-row-gap: 50px;
     margin: 65px 0px 85px 0px;
 }
-
 .info-part h1{
     font-size: 64px;
     margin-bottom: 27px;
     color: #ffffff;
     line-height: 80px;
 }
-
 .banner-image img{
     width: 100%;
 }
@@ -95,8 +93,8 @@ main{
     margin: 0;
 }
 
-/* footer section */
 
+/* footer section */
 .footer-section{
     display: flex;
     flex-direction: column;
@@ -122,9 +120,9 @@ main{
 
 
 
-/* media quey */
+/* media quey writing */
 /* mobile */
-@media screen and (max-width:599px) {
+@media screen and (max-width:688px) {
     .container{
         width: 100%;
     }
@@ -141,7 +139,7 @@ main{
     }
 }
 /* tab */
-@media screen and (min-width:600px) and (max-width:1200px) {
+@media screen and (min-width:688px) and (max-width:992px) {
     .container{
         width: 100%;
     }
@@ -153,9 +151,19 @@ main{
         padding: 20px;
     }
 }
-/* desktop */
-@media screen and (min-width:993px) and (max-width:1350px) {
+/* large tab and laptop */
+@media screen and (min-width:993px) and (max-width:1312px) {
+    .container{
+        width: 100%;
+    }    
+} 
+/* desktop and large screen*/
+/* @media screen and (min-width:1350px) {
+    .container{
+        width: 1250px;
+    }
     .players{
         grid-template-columns: repeat(4,1fr);
     }
-}
+    
+} */
