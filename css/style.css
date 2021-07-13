@@ -14,16 +14,13 @@ header,main,footer{
 header{
     background-color: #2D25A0;
 }
-main{
-    background-color: #ffffff; 
-}
+
 .container{
     /* display: flex;
     flex-direction: column;
     align-items: center; */
     width: 1160px;
 }
-
 .button-style{
     display: flex;
     justify-content: center;
