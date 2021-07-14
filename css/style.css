@@ -263,7 +263,8 @@ fieldset{
         margin: 50px 0px 40px;
     }
     .left-portion input,select{
-        padding:12px 18px;
+        padding:10px 16px;
+        font-size: 18px;
     }
     .footer-image{
         width: 200px;
@@ -303,8 +304,3 @@ fieldset{
  @media screen and (min-width:1313px) {
     /* this range follows given value in our CSS */
 }
-
-
-
-
-
