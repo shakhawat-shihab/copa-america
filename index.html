@@ -208,10 +208,9 @@
         <!-- matches -->
         <section class="container">
             <div class="match-section">
-
-                <h3>Recent Matches</h3>
-                <!-- brazil vs argentina -->
+                <h2 class="section-title">Recent Matches</h2>
                 <div class="matches">
+                    <!-- brazil vs argentina -->
                     <div class="match">
                         <div class="teams">
                             <div class='team'>
@@ -367,15 +366,69 @@
                             Estádio Nacional de Brasília
                         </div>
                     </div>
-
-
-
-
-                    <div class="cast-vote">
-
+                </div>
+            </div>
+        </section>
+        <!-- tickets -->
+        <section class="container">
+            <div class="ticket-section">
+                <h2 class="section-title">Buy Ticket</h2>
+                <div class="tickets">
+                    <div class="left-portion">
+                        <h3>Submit this form to Buy ticket</h3>
+                        <form action="">
+                            <p>Name: <input type="text" id="name" placeholder="Enter Name"></p>
+                            <p>Email : <input type="email" id="email" placeholder="Enter Email"></p>
+                            <p>Phone: <input type="tel" id="mobile" placeholder="Enter Phone Number"></p>
+                            <p>
+                                <label for="match">Choose a Match:</label>
+                                <select id="match" name="match">
+                                    <option value="0">Select Match</option>
+                                    <option value="1">Brazil vs Argentina</option>
+                                    <option value="2">Colombia vs Peru</option>
+                                </select>
+                            </p>
+                            <p>Select Nyumber of Tickets :
+                                <label for="one"><input type="radio" value="1" name="number" id="one"><i
+                                        class="fas fa-user"></i></label>
+                                <label for="two"><input type="radio" value="2" name="number" id="two"><i
+                                        class="fas fa-user-friends"></i></label>
+                                <label for="three"><input type="radio" value="3" name="number" id="three"><i
+                                        class="fas fa-users"></i></label>
+                            </p>
+                            <fieldset>
+                                <legend>Select Payment</legend>
+                                <p>
+                                    <label for="bkash"><input type="radio" name="payment" value="bkash"
+                                            id="bkash">bKash</label>
+                                    <label for="rocket"><input type="radio" name="payment" value="rocket"
+                                            id="rocket">Rocket</label>
+                                    <label for="card"><input type="radio" name="payment" value="card"
+                                            id="card">Card</label>
+                                    <label for="other"><input type="radio" name="payment" value="other"
+                                            id="other">Others</label>
+                                </p>
+                                <p>Transaction Id : <input type="text" id="transaction"
+                                        placeholder="Enter Transaction Id">
+                                </p>
+                            </fieldset>
+                            <p class="button-align"><button type="submit" class="button-style">Purchase</button></p>
+                        </form>
+                    </div>
+                    <div class="right-portion">
+                        <div>
+                            <h2>Buy tickets <br> from online <br> and Get <br> <span>20% discount</span> </h2>
+                        </div>
+                        <div class="image-payment">
+                            <img src="images/ssl.png" width="100%" alt="">
+                        </div>
+                        <div>
+                            <h3> <a href="http://www.google.com" target="_blank">Click here</a> to <br>
+                                Suport Your Team</h3>
+                        </div>
                     </div>
                 </div>
-
+            </div>
         </section>
     </main>
 

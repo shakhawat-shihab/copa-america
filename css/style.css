@@ -34,13 +34,11 @@ header{
 .icon-gap{
     margin-left: 8px;
 }
-
-/* navbar-section */
-/* .navbar-section{
-    height: 200px;
-    width: 200px;
-    background-color: yellow;
-} */
+.section-title{
+    font-size: 38px;
+    text-align: center;
+    margin-top: 0px;
+}
 
 
 /* banner section */
@@ -52,12 +50,11 @@ header{
     margin: 65px 0px 85px 0px;
 }
 .banner-section:hover .banner-image{
-    transform: scale(1.1 ,1.1);
-    transition: transform 1.5s, box-shadow 2s;
-    box-shadow: 2px 2px 10px white;
+    transform: scale(1.05 ,1.1);
+    transition: transform 2s ease-in;
+    /* box-shadow: 2px 2px 10px white;  */
     border-radius: 10px;
 }
-
 .info-part h1{
     font-size: 64px;
     margin-bottom: 27px;
@@ -104,6 +101,8 @@ header{
     grid-template-columns: repeat(3,1fr);
     grid-column-gap: 30px;
     grid-row-gap: 30px;
+    margin: 0px 0px 120px;
+    padding: 0 30px;
 }
 
 .match{
@@ -145,7 +144,66 @@ header{
 }
 
 
+/* Buy Ticket  */
+.ticket-section{
+    margin: 0px 0px 120px;
+}
+.tickets{
+    display: grid;
+    grid-template-columns: repeat(1,1fr) repeat(1,0.8fr);
+    grid-column-gap: 30px;
+    grid-row-gap: 30px;
+    padding: 0 30PX;
+}
+.left-portion{
+    font-size: 22px;
+    padding: 15px;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+    border-radius: 10px;
+}
+.left-portion input,select{
+    font-size: 20px;
+    padding: 15px 20px;
+    border-radius: 10px;
+    border: 2px solid #867f7fd3;
+    margin-left: 20px;
+}
+.left-portion p{
+    margin: 0px 0px 30px 0px;
+}
+.button-align{
+    display: flex;
+    justify-content: center;
+}
+.left-portion button{
+    font-size: 22px;    
+    margin-top: 20px;
+    border: 0;
+    border-radius: 5px;
+}
+.right-portion{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.right-portion h2{
+    font-size: 32px;
+}
+.right-portion h3{
+    font-size: 24px;
+}
+.right-portion span{
+    color: #FF7171;
+}
 
+.right-portion a{
+   text-decoration: none;
+}
+
+.image-payment{
+    width: 90%;
+}
 
 /* footer section */
 .footer-section{
@@ -173,23 +231,29 @@ header{
 
 
 
+
+
+
 /* media quey writing */
 /* mobile */
 @media screen and (max-width:688px) {
     .container{
         width: 100%;
     }
-    .banner-section,.players{
+    .banner-section,.players,.matches,.tickets{
         grid-template-columns: repeat(1,1fr);
         padding: 15px;
     }
     .players{
         margin: 50px 0px 40px;
     }
+
+
     .footer-image{
         width: 370px;
         height: 90px;
     }
+
 }
 /* tab */
 @media screen and (min-width:688px) and (max-width:992px) {
