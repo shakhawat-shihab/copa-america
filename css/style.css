@@ -301,7 +301,7 @@ fieldset{
 } 
 /* desktop and large screen*/
  @media screen and (min-width:1313px) {
-    /* follow gives value in csss */
+    /* this range follows given value in our CSS */
 }
 
 
