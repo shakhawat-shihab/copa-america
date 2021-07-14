@@ -31,10 +31,10 @@ header{
     color: #ffffff;
     text-decoration: none;
 }
-.button-style:hover{
+/* .button-style:hover{
     transform: scale(1.08,1.08);
     transition: transform 1s ease-in;
-}
+} */
 .icon-gap{
     margin-left: 8px;
 }
