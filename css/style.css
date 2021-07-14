@@ -155,7 +155,9 @@ header{
     padding: 0 30PX;
 }
 .left-portion{
-    background-color: brown;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
     font-size: 22px;
     padding: 15px;
     box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
@@ -163,7 +165,7 @@ header{
 }
 .left-portion input,select{
     font-size: 20px;
-    padding: 15px 20px;
+    padding: 15px 25px;
     border-radius: 10px;
     border: 2px solid #867f7fd3;
     margin-left: 20px;
@@ -185,7 +187,6 @@ fieldset{
     border-radius: 5px;
 }
 .right-portion{
-    background-color: coral;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -261,9 +262,10 @@ fieldset{
     .players,.ticket-section{
         margin: 50px 0px 40px;
     }
+    .left-portion input,select{
+        padding:12px 18px;
+    }
     .footer-image{
-        /* width: 275px;
-        height: 70px; */
         width: 200px;
         height: 50px;
     }
