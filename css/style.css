@@ -50,8 +50,8 @@ header{
     margin: 65px 0px 85px 0px;
 }
 .banner-section:hover .banner-image{
-    transform: scale(1.05 ,1.1);
-    transition: transform 2s ease-in;
+    transform: scale(1.03 ,1.1);
+    transition: transform 1.5s ease-in;
     /* box-shadow: 2px 2px 10px white;  */
     border-radius: 10px;
 }
@@ -101,7 +101,6 @@ header{
     grid-template-columns: repeat(3,1fr);
     grid-column-gap: 30px;
     grid-row-gap: 30px;
-    margin: 0px 0px 120px;
     padding: 0 30px;
 }
 
@@ -146,7 +145,7 @@ header{
 
 /* Buy Ticket  */
 .ticket-section{
-    margin: 0px 0px 120px;
+    margin: 120px 0px 120px;
 }
 .tickets{
     display: grid;
@@ -188,9 +187,11 @@ header{
     justify-content: center;
 }
 .right-portion h2{
+    margin-top: 20px;
     font-size: 32px;
 }
 .right-portion h3{
+    margin-top: 15px;
     font-size: 24px;
 }
 .right-portion span{
@@ -244,16 +245,13 @@ header{
         grid-template-columns: repeat(1,1fr);
         padding: 15px;
     }
-    .players{
+    .players,.ticket-section{
         margin: 50px 0px 40px;
     }
-
-
     .footer-image{
         width: 370px;
         height: 90px;
     }
-
 }
 /* tab */
 @media screen and (min-width:688px) and (max-width:992px) {
@@ -263,27 +261,31 @@ header{
     .banner-section{
         padding: 20px;
     }
-    .players{
+    .players,.matches{
         grid-template-columns: repeat(2,1fr);
         padding: 20px;
     }
+    .tickets{
+         grid-template-columns: repeat(1,1fr);
+    }
+   
+
+
+
 }
 /* large tab and laptop */
 @media screen and (min-width:993px) and (max-width:1312px) {
     .container{
         width: 100%;
-    }    
+    }
+    .banner-section{
+        padding: 20px;
+    }
 } 
 /* desktop and large screen*/
-/* @media screen and (min-width:1350px) {
-    .container{
-        width: 1250px;
-    }
-    .players{
-        grid-template-columns: repeat(4,1fr);
-    }
-    
-} */
+ @media screen and (min-width:1313px) {
+    /* follow gives value in csss */
+}
 
 
 
