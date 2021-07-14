@@ -31,6 +31,10 @@ header{
     color: #ffffff;
     text-decoration: none;
 }
+.button-style:hover{
+    transform: scale(1.08,1.08);
+    transition: transform 1s ease-in;
+}
 .icon-gap{
     margin-left: 8px;
 }
@@ -186,6 +190,7 @@ fieldset{
     margin-top: 20px;
     border: 0;
     border-radius: 5px;
+    cursor: pointer;
 }
 .right-portion{
     display: flex;
